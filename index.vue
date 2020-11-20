@@ -40,7 +40,6 @@
             </div>
         </div>
     </div>
-    <!-- :value="currentValue" -->
     <el-select
         v-else
         :value="currentValue"
@@ -112,7 +111,6 @@ import {
 } from 'element-ui';
 import 'element-ui/lib/theme-chalk/select.css';
 
-// let lastTime = 0;
 export default {
     name: 'VueBigTree',
     components: {
